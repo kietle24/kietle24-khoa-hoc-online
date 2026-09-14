@@ -86,7 +86,7 @@ const MobileNav = (props: MobileNavSettings) => {
                         {!isGuest && (
                             <PageLink
                                 theme={theme}
-                                href="/dashboard"
+                                href="/dashboard/my-content/products"
                                 linkFontWeight={props.linkFontWeight}
                                 onClick={() => {
                                     setOpen(false);

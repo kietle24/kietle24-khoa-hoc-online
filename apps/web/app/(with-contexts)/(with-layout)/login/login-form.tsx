@@ -158,7 +158,7 @@ export default function LoginForm({
             profile?.userId &&
             checkPermission(profile.permissions!, ADMIN_PERMISSIONS)
         ) {
-            return "/dashboard/overview";
+            return "/dashboard/my-content/products";
         } else {
             return "/dashboard/my-content";
         }

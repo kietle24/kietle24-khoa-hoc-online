@@ -12,7 +12,7 @@ export default async function Page() {
     }
 
     if (checkPermission(profile?.permissions, ADMIN_PERMISSIONS)) {
-        redirect("/dashboard/overview");
+        redirect("/dashboard/my-content/products");
     } else {
         redirect("/dashboard/my-content");
     }

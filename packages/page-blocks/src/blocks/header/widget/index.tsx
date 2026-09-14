@@ -185,7 +185,7 @@ export default function Widget({
                             {!state.auth.guest && (
                                 <MenuItem2 onSelect={closeUserMenu}>
                                     <AppLink
-                                        href={"/dashboard"}
+                                        href={"/dashboard/my-content/products"}
                                         className={linkClasses}
                                         onClick={closeUserMenu}
                                     >
